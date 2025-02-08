@@ -1,6 +1,4 @@
-# Como Instalar o Pyenv no seu ambiente WSL
-
-
+# Como Configurar o Ambiente Python 
 
 ## 📌 Passo 1: Instalar o Pyenv
 
