@@ -1,6 +1,29 @@
 # Como Configurar o Ambiente Python 
 
-## 📌 Passo 1: Instalar o Pyenv
+
+## 📌 Passo 1: Atualizar os Pacotes do Sistema
+
+1. Abra o **terminal** no WSL.
+2. Atualize a lista de pacotes do sistema:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+---
+
+## 📌 Passo 2: Instalar Dependências Necessárias
+
+Execute o seguinte comando para instalar as dependências:
+
+```bash
+sudo apt install -y make build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
+libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev \
+libffi-dev liblzma-dev
+```
+
+## 📌 Passo 3: Instalar o Pyenv
 
 1. Baixe e execute o script de instalação:
 
@@ -24,7 +47,7 @@ source ~/.bashrc
 
 ---
 
-## 📌 Passo 2: Verificar a Instalação
+## 📌 Passo 4: Verificar a Instalação
 
 Verifique se o Pyenv foi instalado corretamente com:
 
@@ -36,7 +59,7 @@ Se aparecer a versão do Pyenv, a instalação foi concluída com sucesso!
 
 ---
 
-## 📌 Passo 3: Instalar uma Versão do Python com o Pyenv
+## 📌 Passo 5: Instalar uma Versão do Python com o Pyenv
 
 1. Liste as versões disponíveis do Python:
 
